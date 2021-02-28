@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Index js</title>
+	<script type="text/javascript">
+		function Fahrenheit() {
+	c=document.getElementById('Celsius').value;
+	F=c*1.8000 +32.00;
+	//document.write("<h3>" + F + "*F </h3>");
+	document.getElementById('show').innerHTML= F;
+	//	alert("" + F + "*F");
+	//console.log(F);
+	}
+	</script>
+</head>
+<body>
+	<label>Please Enter The Celsius Value</label><br>
+	<input type="number" name="" id="Celsius">
+	<br>
+	<br>
+	<button onclick="Fahrenheit()" >Fahrenheit</button>
+	<p id="show"></p>
+
+</body>
+</html>
